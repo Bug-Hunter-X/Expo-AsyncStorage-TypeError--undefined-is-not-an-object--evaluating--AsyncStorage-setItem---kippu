@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in Expo.  The error message is cryptic, often showing up as a generic 'TypeError: undefined is not an object (evaluating 'AsyncStorage.setItem')'.  The issue stems from improperly handling the asynchronous nature of AsyncStorage operations, especially within functions that may complete before AsyncStorage has a chance to finish.
